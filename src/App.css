@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;   
+}
+
+.main{
+  width: 35%;
+  height: 660px;
+  border-width: 10px;
+  border-radius: 50px;
+  border-color: black;
+  flex-direction: column;
+  background-color: #0f0;
+  margin-top: 30px;
+  
+}
+
+.counter-group{
+  flex-direction: row;
+  text-align: center;
+  margin-top: 4%;
+}
+.slider{
+  margin-left: 15%;
+  margin-top: 7%;
+}
+.earning-tab{
+  width: 80%;
+  height: 200px;
+  background-color: cyan;
+  border-radius: 30px;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.earning-tab-main-title{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
